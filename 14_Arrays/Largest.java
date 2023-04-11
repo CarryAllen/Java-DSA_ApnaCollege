@@ -1,3 +1,5 @@
+//program for finding largest number in array
+
 public class Largest {
     public static int LargeValue(int numbers[]) {
         int largest = Integer.MIN_VALUE;    //-infinity

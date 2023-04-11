@@ -1,4 +1,3 @@
-//Linear Search
 
 public class LinearSearch {
 
