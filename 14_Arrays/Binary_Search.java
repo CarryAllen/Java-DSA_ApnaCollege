@@ -17,7 +17,6 @@ public class Binary_Search {
             }
         }
     
-    
         return -1;
     }
     public static void main(String[] args) {
