@@ -7,16 +7,15 @@ public class Binary_Search {
             int mid = (start + end) / 2;
 
             //comaprison
-            if (numbers [mid] == key) { //found
+            if (numbers [mid] == key) {     //found
                 return mid;
             }
-            if (numbers [mid] < key){ //right
+            if (numbers [mid] < key){       //right
                 start = mid + 1;
             } else { //left
                 end = mid - 1; 
             }
         }
-    
         return -1;
     }
     public static void main(String[] args) {
