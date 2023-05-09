@@ -23,9 +23,9 @@ public class palindrome {
         int palindrome = sc.nextInt();
 
         if(check_palindrome(palindrome)) {
-            System.out.println("Number: "+palindrome+"is a palindrome number");
+            System.out.println("Number: "+ palindrome +"is a palindrome number");
         }else {
-            System.out.println("Number: "+palindrome+"is a not palindrome number");
+            System.out.println("Number: "+ palindrome +"is a not palindrome number");
         }
     }
 }
