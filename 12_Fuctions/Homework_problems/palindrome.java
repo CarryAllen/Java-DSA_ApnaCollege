@@ -22,7 +22,7 @@ public class palindrome {
         Scanner sc = new Scanner (System.in);
         System.out.println("Enter number to check palindrome: ");
         int palindrome = sc.nextInt();
-
+        sc.close();
         if(check_palindrome(palindrome)) {
             System.out.println("Number: " + palindrome + "is a palindrome number");
         } else {
