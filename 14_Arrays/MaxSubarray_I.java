@@ -1,3 +1,9 @@
+//this program is performed using brute force algorithm which time complexity of O(n3) which is very bad
+// to imporove this we can use prefix sum method which is applied in maxSubArray_II.java
+
+
+//Brute force
+
 public class MaxSubarray_I {
   public static void MaxSubArray(int numbers[]) {
     int currSum = 0;
