@@ -12,6 +12,7 @@ public class MaxSubarray_I {
           //subarray sum
           currSum += numbers[k];
         }
+        System.out.println(currSum);
         if (maxSum < currSum) {
           maxSum = currSum;
         }
