@@ -1,6 +1,4 @@
-//this program is performed using brute force algorithm which time complexity of O(n3) which is very bad
-// to imporove this we can use prefix sum method which is applied in maxSubArray_II.java
-
+//this program is performed using brute force algorithm. w
 
 //Brute force
 
@@ -31,3 +29,6 @@ public class MaxSubarray_I {
     MaxSubArray(numbers);
   }
 }
+
+// time complexity of methos is O(n3) which is very bad
+// to imporove this we can use prefix sum method which is applied in maxSubArray_II.java

@@ -1,3 +1,4 @@
+// To imporve time complexity we use prefix method in this program
 
 //prefix sum
 
@@ -35,3 +36,5 @@ public class maxSubArray_II {
     MaxSubArray(numbers);
   }
 }
+
+// Brute force time complexity O(n3) > prefix Sum time complexity O(n2) (bcz only 2 loops in prefix method)
