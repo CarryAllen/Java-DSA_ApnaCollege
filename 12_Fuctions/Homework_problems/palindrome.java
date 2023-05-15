@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class palindrome {
-    public static int check_palindrome (int number) {
+    public static boolean check_palindrome (int number) {
         int palindrome = number ;
         int reverse = 0;
 
@@ -17,15 +17,16 @@ public class palindrome {
             return false;
         }
     }
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         System.out.println("Enter number to check palindrome: ");
         int palindrome = sc.nextInt();
-
+        sc.close();
         if(check_palindrome(palindrome)) {
-            System.out.println("Number: "+palindrome+"is a palindrome number");
-        }else {
-            System.out.println("Number: "+palindrome+"is a not palindrome number");
+            System.out.println("Number: " + palindrome + "is a palindrome number");
+        } else {
+            System.out.println("Number: " + palindrome + "is a not palindrome number");
         }
     }
 }
