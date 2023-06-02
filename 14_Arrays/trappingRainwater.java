@@ -4,7 +4,7 @@ In this program we will learn what is Auxilary Array ? & how to use it by solvin
 
  */
 
-public class trappinRainwater {
+public class trappingRainwater {
 
   public static void rainwater() {
 
