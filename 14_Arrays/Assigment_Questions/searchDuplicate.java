@@ -21,7 +21,7 @@ Constraints:
  */
 
 
-public class problem_1 {
+public class searchDuplicate {
 
   public static boolean containsDuplicate(int[] nums) {
     for (int i=0; i<nums.length-1; i++) {
